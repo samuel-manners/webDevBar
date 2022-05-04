@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>BWMC Events</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="CSS/normaize.css" rel="stylesheet">
+
+<!-- This stylesheet is for the formatting standard followed by all devices -->
+<link href="CSS/stylesheet.css" rel="stylesheet">
+
+<!-- This stylesheet imports the from google fonts "Strait" -->
+<link href="http://fonts.googleapis.com/css?family=Strait" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- This connects the javascript made to this page -->
+<script src="javascript/topnav.js"></script> 
+
+</head>
+<body>
+
+        
+        <div class = "wrapper">
+                        <header class = "page-header">
+                <h1>Bordon Working Mens Club</h1>
+                <h2>Members Bar</h2>
+
+            </header>
+            
+            <div class="topnav" id="myTopnav">
+                <a href="home.html" class="active">Home</a>
+                <a href="about.html">About</a>
+                <!-- Dropdown centre for entertainment -->
+                 <div class="dropdown">
+                     <button class="dropbtn">Entertainment
+                        <i class="fa fa-caret-down"></i>
+                     </button>
+                     <div class="dropdown-content">
+                         <a href="entertainment.html">What's on?</a>
+                        <a href="entertainment/quiznight.html">Quiz Night</a>
+                        <a href="entertainment/bingo.html">Bingo</a>
+                        <a href="entertainment/raffles.html">Draws and Raffles</a>
+                    </div>
+                </div>
+ 
+                
+                <a href="membership.html">Membership</a>
+                <a href="hall.html">Hall Booking</a>
+                <a href="contact.html">Contact us</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+            </div>
+            
+                        
+
+            <main class = "contactMain">
+                <!-- Main Page -->
+                <h2>Contact Us!</h2>
+                <h3>Contact Information</h3>
+                <h4>Contact the bar!</h4>
+                <p>Phonelines only open whilst venue is open!</p>
+                <!-- Add phone details -->
+                
+                <h3>Use our contact form for enquiries</h3>
+                <p>Note - For all bookings please refer to our <a href = "hallbooking.html">Hall Booking</a> page! </p>
+                <div id="form">
+                    <form id = "contactForm">
+                        <!--Allocated area for contact details -->
+                        <fieldset>
+                            <legend>Your contact details</legend>
+                            <label for="name">Name <em>(required)</em></label>
+                            <!--Sets input for name -->
+                            <input type="text" required placeholder="Forename+Surname" id="name" />
+                            <label for = "email">Email address <em>(required)</em></label>
+                            <input type="email" id="email" required />
+                            <label for = "tel">Contact Number</label>
+                            <input type="tel" id="url"/>
+                        </fieldset>
+                        
+                        <!--Allocated area for the message to be sent -->
+                        <fieldset>
+                            <legend>Your Comments</legend>
+                            <label for="message">Message: </label>
+                            <textarea id="message" required></textarea>
+                        </fieldset>
+                        
+                        <!--Alocated area for radio buttons -->
+                        <fieldset>
+                            <legend>Would you like more information></legend>
+                            <label for = "information-yes">
+                                <input type = "radio" id="information-yes" name="information" value = "yes" />Yes please</label>
+                            
+                            <label for = "information-no">
+                                <input type = "radio" id="information-no" name = "information" value = "no" />No thanks</label>
+                        </fieldset>
+                        
+                        <input type="submit" value="Click to send" />
+                    </form>
+                </div>
+                
+                
+            </main>
+            
+                
+            </div>
+            
+        <footer class = "footer">
+            <p>© Bordon Working Mens Club - All Rights Reserved</p>
+            <p>Website Design by Samuel Manners</p>
+        </footer>
+            
+</body>
+</html>

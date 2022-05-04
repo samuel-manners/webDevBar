@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>BWMC Hall Booking</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="CSS/normaize.css" rel="stylesheet">
+
+<!-- This stylesheet is for the formatting standard followed by all devices -->
+<link href="CSS/stylesheet.css" rel="stylesheet">
+
+<!-- This stylesheet imports the from google fonts "Strait" -->
+<link href="http://fonts.googleapis.com/css?family=Strait" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- This connects the javascript made to this page -->
+<script src="javascript/topnav.js"></script> 
+<script src="javascript/slideshow.js"></script> 
+
+</head>
+<body>
+
+        
+        <div class = "wrapper">
+                        <header class = "page-header">
+                <h1>Bordon Working Mens Club</h1>
+                <h2>Members Bar</h2>
+
+            </header>
+            
+            <div class="topnav" id="myTopnav">
+                <a href="home.html" class="active">Home</a>
+                <a href="about.html">About</a>
+                <a href="events.html">Events</a>
+                <a href="membership.html">Membership</a>
+                <a href="hall.html">Hall Booking</a>
+                <a href="contact.html">Contact us</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+            </div>
+            
+            
+                        
+            <main class = "article">
+                <!-- Main Page -->
+                <h2>Book our hall for a private event!</h2>
+            </main>
+            <!--
+            <div class="slideshow-container">
+
+            -->
+                <div>
+                        <img src="images/rooms/hall/hallLights.jpg" style="width:100%">
+                </div>
+                <!--
+                <div>
+                        <img src="images/rooms/hall/hallBar.jpg" style="width:100%">
+                </div>
+            
+
+
+            </div>
+            <br>
+            <!--
+            <script>
+                showSlides()
+            </script>
+            -->
+            <div>
+                <p>Available to members and non members alike, we want to make sure you have everything you need to make your event as special as possible! <br> With a total capacity of <!-- enter value --> and a seated capacity of <!-- Enter Value --> we have all the room to make whatever occasion you require to be that extra bit special!</p>
+            </div>
+            
+        <footer class = "footer">
+            <p>© Bordon Working Mens Club - All Rights Reserved</p>
+            <p>Website Design by Samuel Manners</p>
+        </footer>
+            
+        </div>
+
+</body>
+</html>
